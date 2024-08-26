@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!--menu encabezado-->
+    <div class="header">
+        <header>
+            <div class="logo">
+                <a href="#">Juan David Alzate Serna</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#contacto " onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+    </div>
+
+    <!--Seccion de Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="banner">
+            <div class="imagen">
+                <img src="/img/imagen_perfil.jpg" alt="">
+            </div>
+            <h1>Juan David Alzate Serna</h1>
+            <br/>
+            <h2>Tecnologo en Analisis y Desarrollo de Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/juandavid.alzate.338?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://youtube.com/@juanda1191?si=YRqAA3HnUAhF5Rxu"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/juandaalzate21?igsh=MWI5Y3VnMXcxbHI1bA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy Juan David Alzate Serna</span> Desarrollador Web con experiencia en diseño y construcción de sitios web, con conocimientos en lenguajes como HTML, CSS y JavaScript. Mi objetivo profesional es seguir mejorando mis habilidades y conocimientos para crear sitios web cada vez más atractivos y funcionales, y así poder ayudar a las empresas y particulares a tener una presencia en línea efectiva. Me gusta estar actualizado con las últimas tendencias y tecnologías para ofrecer soluciones innovadoras y personalizadas a mis clientes. Estoy en constante aprendizaje y búsqueda de nuevos desafíos que me permitan seguir creciendo como profesional.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25-07-2003
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 313 5648468
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            juandaalzate11@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Calle encuentrela, Carrera Busquela
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class="col">
+                    <h3>Gustos</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Habilidades-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--habilidades tecnicas-->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="habilidad">
+                        <span>JavaScript</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>HTML & CSS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--habilidades profesionales-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidad">
+                        <span>Comunicaciòn</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>73%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+
+                <!--formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tù Nombre">                
+                    <input type="text" placeholder="Nùmero Telefònico">                
+                    <input type="text" placeholder="Direcciòn de Correo">                              
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe un Mensaje"></textarea> 
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="cubrir"></span>
+                    </button>               
+                </div>
+
+                <!--mapa-->
+
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                En Algun lugar del mundo
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llamanos: 313 - 5648468
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: juandaalzate11@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Juan David Alzate Serna</b>  - Todos los Derechos Reservados.</small>
+        </div>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
